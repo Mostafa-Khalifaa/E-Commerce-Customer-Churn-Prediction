@@ -42,3 +42,16 @@ The goal is to help businesses **reduce churn, improve customer retention, and m
    ```bash
    git clone https://github.com/your-username/Customer-Churn-Prediction.git
    cd Customer-Churn-Prediction
+
+2.Install requirements:
+  ```bash
+  pip install -r requirements.txt
+
+3.Run analysis:
+  ```bash
+  python code/churn_analysis.py
+
+4.Results:
+  ```bash
+  Cleaned datasets and metrics will be saved in the results/ folder
+  Open visualizations/churn_dashboard.pbix in Power BI to explore dashboards
